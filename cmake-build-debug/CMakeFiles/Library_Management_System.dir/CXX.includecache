@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/amrmh/Desktop/Library_Management_System/Book.h
+string
+-
+
+C:/Users/amrmh/Desktop/Library_Management_System/Library.cpp
+Library.h
+C:/Users/amrmh/Desktop/Library_Management_System/Library.h
+
+C:/Users/amrmh/Desktop/Library_Management_System/Library.h
+string
+-
+vector
+-
+Book.h
+C:/Users/amrmh/Desktop/Library_Management_System/Book.h
+iostream
+-
+

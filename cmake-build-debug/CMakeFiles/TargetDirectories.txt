@@ -1,0 +1,3 @@
+C:/Users/amrmh/Desktop/Library_Management_System/cmake-build-debug/CMakeFiles/Library_Management_System.dir
+C:/Users/amrmh/Desktop/Library_Management_System/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/amrmh/Desktop/Library_Management_System/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -4,26 +4,24 @@
 #include <vector>
 #include "Book.h"
 #include <iostream>
+#include <fstream>
+#include <cstdio>
 using namespace std;
 
 class Library {
 private:
     string name;
-    vector<Book> v;
 
 public:
     Library();
-    string getName();
-    void setName(string name);
+    void createFile(string name);
     void openLibrary();
     void selectionMenu();
     void selectionInput();
     void addBook();
     void removeBook();
     void editBook();
-    void searchBook();
     void viewAllBooks();
-    void closeLibrary();
 
 };
 

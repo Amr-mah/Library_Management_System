@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/amrmh/Desktop/Library_Management_System/Book.cpp
+
 C:/Users/amrmh/Desktop/Library_Management_System/Book.h
-string
--
 
 C:/Users/amrmh/Desktop/Library_Management_System/Library.cpp
 Library.h
@@ -23,4 +23,16 @@ Book.h
 C:/Users/amrmh/Desktop/Library_Management_System/Book.h
 iostream
 -
+fstream
+-
+cstdio
+-
+
+C:/Users/amrmh/Desktop/Library_Management_System/main.cpp
+iostream
+-
+string
+-
+Library.h
+C:/Users/amrmh/Desktop/Library_Management_System/Library.h
 

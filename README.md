@@ -9,5 +9,10 @@
     - Edit book
     - View all books
     
+ - Admin System
+    - Admin authentication used to manage library
+    - User can register / login
+    - User can be removed from the system
+    
  - File stream
     - Information is all saved on external text file

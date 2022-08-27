@@ -6,9 +6,48 @@ Library::Library() {
 
 void Library::openLibrary() {
     cout << "Enter the name of the Library:";
-    getline(cin, name);
+    getline(cin >> ws, name);
     createFile(name);
+    createFile(name + "-Admin");
+    loginMenu();
 
+}
+
+void Library::loginMenu() {
+    int choice;
+    cout << "1 - Register\n2 - Login\n3 - Remove Admin Account\nYour Choice:";
+    cin >> choice;
+
+    if (choice == 1) {
+        Admin a;
+        a.Register(name);
+        cout << "Successfully Registered" << endl;
+        loginMenu();
+    }
+
+    if (choice == 2) {
+        Admin a;
+        if (a.isRegistered(name)) {
+            cout << "Login Successful" << endl;
+            selectionInput();
+        }
+        else {
+            cout << "Invalid Login" << endl;
+            openLibrary();
+        }
+    }
+
+    if (choice == 3) {
+        Admin a;
+        string username;
+        string password;
+        cout << "Enter the username you want to remove:";
+        getline(cin >> ws, username);
+        cout << "Enter the password of the account you want to remove:";
+        getline(cin, password);
+        a.removeAdmin(username,password, name);
+        loginMenu();
+    }
 }
 
 void Library::createFile(string name) {

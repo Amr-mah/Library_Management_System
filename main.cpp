@@ -6,7 +6,6 @@ int main() {
 
     Library library1;
     library1.openLibrary();
-    library1.selectionInput();
 
     return 0;
 }

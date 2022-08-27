@@ -2,7 +2,8 @@
 #define Library_H
 #include <string>
 #include <vector>
-#include "Book.h"
+// #include "Book.h"
+#include "Admin.h"
 #include <iostream>
 #include <fstream>
 #include <cstdio>
@@ -16,6 +17,7 @@ public:
     Library();
     void createFile(string name);
     void openLibrary();
+    void loginMenu();
     void selectionMenu();
     void selectionInput();
     void addBook();
